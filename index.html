@@ -8,10 +8,10 @@
       content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no"
     />
     <link href="images/logo.jpg" rel="icon" />
-    <title>Shane Lewis</title>
+    <title>Taylor Lawrence</title>
     <meta
       name="description"
-      content="Shane Lewis Personal Website - Professional Software Engineer"
+      content="Taylor Lawrence Personal Website - Professional Software Engineer"
     />
     <meta name="author" content="harnishdesign.net" />
 
@@ -77,12 +77,14 @@
     <div id="main-wrapper">
       <!-- Intro
     ============================================= -->
-      <section id="home">
+      <section id="home" style="display: none">
         <div class="hero-wrap">
           <div class="hero-mask opacity-8 bg-dark"></div>
           <div
             class="hero-bg parallax"
-            style="background-image: url('images/computer-keyboard-technology-work.jpg')"
+            style="
+              background-image: url('images/computer-keyboard-technology-work.jpg');
+            "
           ></div>
           <div class="hero-content d-flex flex-column fullscreen py-5">
             <div class="container my-auto">
@@ -96,15 +98,13 @@
                       src="images/web-developer-sm.png"
                       width="200px"
                       height="200px"
-                      title="I'm David"
                       alt=""
                     />
                   </div>
                   <h2
                     class="text-10 text-white text-uppercase fw-600 mb-4 wow fadeInUp"
                   >
-                    Hello! I'm Shane Lewis - Professional Web / Web3
-                    Software Engineer.
+                    Hello! I'm Shane Lewis - Professional Web Software Engineer.
                   </h2>
                   <p class="text-5 text-light pb-3 wow fadeInUp">
                     Based in Brantford, Canada.
@@ -167,17 +167,7 @@
               >
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link smooth-scroll active" href="#home"
-                      >Home</a
-                    >
-                  </li>
-                  <li class="nav-item">
                     <a class="nav-link smooth-scroll" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link smooth-scroll" href="#services"
-                      >Services</a
-                    >
                   </li>
                   <li class="nav-item">
                     <a class="nav-link smooth-scroll" href="#resume">Resume</a>
@@ -280,16 +270,7 @@
         <!-- About
     ============================================= -->
         <section id="about" class="section">
-          <div class="container">
-            <!-- Heading -->
-            <p class="text-center mb-2 wow fadeInUp">
-              <span class="bg-primary text-dark px-2">About Me</span>
-            </p>
-            <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp">
-              Know Me More
-            </h2>
-            <!-- Heading end-->
-
+          <div class="container mt-3">
             <div class="row">
               <div class="col-lg-8 text-center text-lg-start wow fadeInUp">
                 <h2 class="text-8 fw-400 mb-3">
@@ -303,11 +284,17 @@
                   ></span>
                 </h2>
                 <p class="text-5">
-                  I'm a professional software engineer with a passion in
-                  blockchain & cryptocurrencies. I always stand on best
-                  practices and principles of software engineering, providing
-                  high-quality solutions and follow the latest trends and
-                  technologies.<span
+                  Full-Stack Software
+                  Engineer (JavaScript/Python + Ruby Expert) specializing in
+                  both server-side and client-side JavaScript and Python, Ruby
+                  frameworks such as React, Vue in frontend, Node.js, Django,
+                  Ruby on Rails in backend. With over 9 years of professional
+                  experience, I have had the opportunity to work on projects
+                  that run the gambit from financial platforms, to private
+                  business enterprise web applications, to building websites for
+                  digital marketing agencies, to working entrepreneurially as a
+                  freelance consultant and looking forward to contributing to
+                  build the future of the web with my next employer.<span
                     class="iconify text-8"
                     data-icon="emojione:fire"
                   ></span>
@@ -321,7 +308,7 @@
                   <div
                     class="featured-box-icon text-25 fw-500 bg-primary rounded-circle"
                   >
-                    <span class="wow heartBeat" data-wow-delay="1.3s">7</span>
+                    <span class="wow heartBeat" data-wow-delay="1.3s">9</span>
                   </div>
                   <h3 class="text-7 wow rubberBand" data-wow-delay="2s">
                     Years of <span class="fw-700">Experience</span>
@@ -329,397 +316,673 @@
                 </div>
               </div>
             </div>
-            <div class="row gy-3 mt-4">
-              <div class="col-6 col-lg-3 wow fadeInUp">
-                <p class="text-muted fw-500 mb-0">Name:</p>
-                <p class="text-4 text-dark fw-600 mb-0">Shane Lewis</p>
-              </div>
-              <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-                <p class="text-muted fw-500 mb-0">Email:</p>
-                <p class="text-4 fw-600 mb-0">
-                  <a class="link-dark" href="mailto:shanelewix@gmail.com"
-                    >shanelewis@gmail.com</a
+            <div class="accordion accordion-flush mt-4" id="faqTopics">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed w-100"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
                   >
-                </p>
+                    <div
+                      class="fadeInUp wow w-100 d-flex align-items-center justify-content-between"
+                    >
+                      <h3 class="text-4 fw-600 m-0">Front-end Development</h3>
+                      <p class="text-center m-0">
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="React"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:react"
+                            style="color: black"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Vue"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:vue"
+                            style="color: black"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Svelte"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:svelte-icon"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Next"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:nextjs-icon"
+                            style="color: black"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Gatsby"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:gatsby"
+                            style="color: black"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="JavaScript"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:javascript"
+                            style="color: black"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="TypeScript"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:typescript-icon"
+                            style="color: black"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="GraphQL"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:graphql"
+                            style="color: black"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="SASS/SCSS"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:sass"
+                            style="color: black"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Bootstrap"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:bootstrap"
+                            style="color: black"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Ant Design"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:ant-design"
+                            style="color: black"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Material UI"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:material-ui"
+                            style="color: black"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Tailwind CSS"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:tailwindcss-icon"
+                            style="color: black"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="D3.js"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:d3"
+                            style="color: black"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                      </p>
+                    </div>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#faqTopics"
+                  style=""
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li>
+                        <p>
+                          Build beautiful, responsive UI with reusable
+                          components(SFCs) using React and Vue
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Implement public web pages with improved SEO and
+                          loading speed, using Next.js and Gatsby.js
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Optimize performance of the application with Lazy
+                          Loading and Page Splitting
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Awesome experience in CSS frameworks and design
+                          libraries with deep knowledge of HTML/CSS
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Pixel-Perfect implementation of the website according
+                          to the design provided by figma
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Unit tests, integration tests and e2e tests with React
+                          Testing Library, Enzyme and Cypress
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                <p class="text-muted fw-500 mb-0">Position:</p>
-                <p class="text-4 text-dark fw-600 mb-0">Software Engineer</p>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    <div
+                      class="fadeInUp wow w-100 d-flex align-items-center justify-content-between"
+                    >
+                      <h3 class="text-4 fw-600 mb-0">Back-end Development</h3>
+                      <p class="text-center">
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Node.js"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:nodejs-icon"
+                            style="color: black"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Nest.js"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:nestjs"
+                            style="color: black"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Laravel"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:laravel"
+                            style="color: black"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Ruby on Rails"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="mdi:language-ruby-on-rails"
+                            style="color: red"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Django"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:django-icon"
+                            style="color: black"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="MySQL"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:mysql-icon"
+                            style="color: black"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="PostgreSQL"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:postgresql"
+                            style="color: black"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="MongoDB"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="simple-icons:mongodb"
+                            style="color: green"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Prisma"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:prisma"
+                            style="color: black"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Docker"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:docker-icon"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Kubernetes"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:kubernetes"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="AWS"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:aws"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Firebase"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:firebase"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Auth0"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:auth0-icon"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="ElasticSearch"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:elasticsearch"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Redis"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:redis"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="CircleCI"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="vscode-icons:file-type-circleci"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                      </p>
+                    </div>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#faqTopics"
+                  style=""
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li>
+                        <p>
+                          Build monolith/microservice backend applications with
+                          Node.js, Django and Laravel
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Proficient in SQL queries and using ORM libraries
+                          (TypeORM, Prisma) to interact with the DBMS
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Implement GraphQL schema, queries and mutations inside
+                          the backend applications
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Familiar with SQL, NoSQL databases including MySQL,
+                          PostgreSQL, SQL Server and MongoDB
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Write CI/CD scripts with CircleCI and deploy
+                          application automatically with Docker, Kubernetes and
+                          AWS services
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Deploy frontend/backed application on AWS, Heroku,
+                          GCP, Netlify
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Increase the search speed and performance by
+                          integrating ElasticSearch to the application
+                        </p>
+                      </li>
+                      <li>
+                        <p>Cache data on backend using Redis and Memcached</p>
+                      </li>
+                      <li>
+                        <p>
+                          Third-party authentication service with Firebase and
+                          Auth0
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
-                <p class="text-muted fw-500 mb-0">From:</p>
-                <p class="text-4 text-dark fw-600 mb-0">
-                  Brantford, ON, Canada.
-                </p>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    <div
+                      class="fadeInUp wow w-100 d-flex align-items-center justify-content-between"
+                    >
+                      <h3 class="text-4 fw-600 mb-0">
+                        Blockchain & Web3 Development
+                      </h3>
+                      <p class="text-center">
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Ethereum"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:ethereum"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Solidity"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:solidity"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Hardhat"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:hardhat-icon"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Truffle"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:truffle-icon"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Ganache"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:ganache-icon"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Rust"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="logos:rust"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                        <span
+                          data-bs-toggle="tooltip"
+                          data-bs-original-title="Golang"
+                        >
+                          <span
+                            class="iconify"
+                            data-icon="vscode-icons:file-type-go-gopher"
+                            data-width="30"
+                            data-height="30"
+                          ></span>
+                        </span>
+                      </p>
+                    </div>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#faqTopics"
+                  style=""
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li>
+                        <p>
+                          Write smart contracts, scripts and unit tests with
+                          Solidity and Rust
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Deployed smart contracts on Ethereum, BSC, Polygon and
+                          Cosmos networks
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Verify smart contracts using etherscan and test smart
+                          contracts using Remix and Ganache
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Integrate smart contracts into frontend applications
+                          with web3.js/ethers.js
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Built decentralized applications including Defi, DAO
+                          and NFT marketplaces
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Expertized in Cosmos SDK, Cosmwasm and building
+                          application-specific blockchains with Starport
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </section>
         <!-- About end -->
-
-        <!-- Services
-    ============================================= -->
-        <section id="services" class="section bg-light">
-          <div class="container">
-            <!-- Heading -->
-            <p class="text-center mb-2 wow fadeInUp">
-              <span class="bg-primary text-dark px-2">What I Do?</span>
-            </p>
-            <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp">
-              How I can help your next project
-            </h2>
-            <!-- Heading end-->
-
-            <div class="row gy-5 my-5 fadeInUp">
-              <div class="col-sm-4 col-lg-6 wow fadeInUp d-flex align-items-center">
-                <img src="./images/undraw_web_development_0l6v.svg" width="100%" />
-              </div>
-              <div class="col-sm-8 col-lg-6 wow fadeInRight">
-                <h3 class="text-8 fw-600 mb-3">Front-end Development</h3>
-                <p class="text-center">
-                  <span data-bs-toggle="tooltip" data-bs-original-title="React">
-                    <span class="iconify" data-icon="logos:react" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Vue">
-                    <span class="iconify" data-icon="logos:vue" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Next">
-                    <span class="iconify" data-icon="logos:nextjs-icon" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Gatsby">
-                    <span class="iconify" data-icon="logos:gatsby" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="JavaScript">
-                    <span class="iconify" data-icon="logos:javascript" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="TypeScript">
-                    <span class="iconify" data-icon="logos:typescript-icon" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="JQuery">
-                    <span class="iconify" data-icon="logos:jquery" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="GraphQL">
-                    <span class="iconify" data-icon="logos:graphql" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Cypress">
-                    <span class="iconify" data-icon="vscode-icons:file-type-light-cypress" style="color: green;" data-width="60" data-height="60"></span>
-                  </span>
-                </p>
-                <p class="text-center">
-                  <span data-bs-toggle="tooltip" data-bs-original-title="NPM">
-                    <span class="iconify" data-icon="logos:npm-icon" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Yarn">
-                    <span class="iconify" data-icon="logos:yarn" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Babel">
-                    <span class="iconify" data-icon="cib:babel" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Webpack">
-                    <span class="iconify" data-icon="logos:webpack" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Vite">
-                    <span class="iconify" data-icon="logos:vitejs" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="ESLint">
-                    <span class="iconify" data-icon="logos:eslint" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Prettier">
-                    <span class="iconify" data-icon="logos:prettier" data-width="60" data-height="60"></span>
-                  </span>
-                </p>
-                <p class="text-center">
-                  <span data-bs-toggle="tooltip" data-bs-original-title="HTML">
-                    <span class="iconify" data-icon="logos:html-5" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="CSS">
-                    <span class="iconify" data-icon="logos:css-3" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="SASS/SCSS">
-                    <span class="iconify" data-icon="logos:sass" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Bootstrap">
-                    <span class="iconify" data-icon="logos:bootstrap" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Ant Design">
-                    <span class="iconify" data-icon="logos:ant-design" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Material UI">
-                    <span class="iconify" data-icon="logos:material-ui" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Tailwind CSS">
-                    <span class="iconify" data-icon="logos:tailwindcss-icon" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="D3.js">
-                    <span class="iconify" data-icon="logos:d3" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Figma">
-                    <span class="iconify" data-icon="logos:figma" style="color: black;" data-width="40"></span>
-                  </span>
-                </p>
-                <p class="text-muted pt-2">
-                  <ul>
-                    <li>
-                      <p>Build beautiful, responsive UI with reusable components(SFCs) using React and Vue</p>
-                    </li>
-                    <li>
-                      <p>Implement public web pages with improved SEO and loading speed, using Next.js and Gatsby.js</p>
-                    </li>
-                    <li>
-                      <p>Optimize performance of the application with Lazy Loading and Page Splitting</p>
-                    </li>
-                    <li>
-                      <p>Awesome experience in CSS frameworks and design libraries with deep knowledge of HTML/CSS</p>
-                    </li>
-                    <li>
-                      <p>Pixel-Perfect implementation of the website according to the design provided by figma</p>
-                    </li>
-                    <li>
-                      <p>Unit tests, integration tests and e2e tests with React Testing Library, Enzyme and Cypress</p>
-                    </li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-            <div class="row gy-5 my-5 py-5 fadeInUp">
-              <div class="col-sm-8 col-lg-6 wow fadeInRight">
-                <h3 class="text-8 fw-600 mb-3">Back-end Development</h3>
-                <p class="text-center">
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Node.js">
-                    <span class="iconify" data-icon="logos:nodejs-icon" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Nest.js">
-                    <span class="iconify" data-icon="logos:nestjs" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="TypeScript">
-                    <span class="iconify" data-icon="logos:typescript-icon" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="GraphQL">
-                    <span class="iconify" data-icon="logos:graphql" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="PHP">
-                    <span class="iconify" data-icon="vscode-icons:file-type-php2" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Laravel">
-                    <span class="iconify" data-icon="logos:laravel" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Ruby on Rails">
-                    <span class="iconify" data-icon="mdi:language-ruby-on-rails" style="color: red;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Python">
-                    <span class="iconify" data-icon="logos:python" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Django">
-                    <span class="iconify" data-icon="logos:django-icon" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Flask">
-                    <span class="iconify" data-icon="logos:flask" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="MySQL">
-                    <span class="iconify" data-icon="logos:mysql-icon" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="PostgreSQL">
-                    <span class="iconify" data-icon="logos:postgresql" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="MongoDB">
-                    <span class="iconify" data-icon="simple-icons:mongodb" style="color: green;" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Prisma">
-                    <span class="iconify" data-icon="logos:prisma" style="color: black;" data-width="60" data-height="60"></span>
-                  </span>
-                </p>
-                <p class="text-muted pt-2">
-                  <ul>
-                    <li>
-                      <p>Build monolith/microservice backend applications with Node.js, Django and Laravel</p>
-                    </li>
-                    <li>
-                      <p>Proficient in SQL queries and using ORM libraries (TypeORM, Prisma) to interact with the DBMS</p>
-                    </li>
-                    <li>
-                      <p>Implement GraphQL schema, queries and mutations inside the backend applications</p>
-                    </li>
-                    <li>
-                      <p>Familiar with SQL, NoSQL databases including MySQL, PostgreSQL, SQL Server and MongoDB</p>
-                    </li>
-                    <li>
-                      <p>Design main architecture and code structure of the application</p>
-                    </li>
-                  </ul>
-                </p>
-              </div>
-              <div class="col-sm-4 col-lg-6 wow fadeInUp d-flex align-items-center">
-                <img src="./images/undraw_programming_re_kg9v.svg" width="100%" />
-              </div>
-            </div>
-            <div class="row gy-5 my-5 py-5 fadeInUp">
-              <div class="col-sm-4 col-lg-6 wow fadeInUp d-flex align-items-center">
-                <img src="./images/undraw_cloud_hosting_aodd.svg" width="100%" />
-              </div>
-              <div class="col-sm-8 col-lg-6 wow fadeInRight">
-                <h3 class="text-8 fw-600 mb-3">Devops & Extra skills</h3>
-                <p class="text-center">
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Docker">
-                    <span class="iconify" data-icon="logos:docker-icon" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Kubernetes">
-                    <span class="iconify" data-icon="logos:kubernetes" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Terraform">
-                    <span class="iconify" data-icon="logos:terraform-icon" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="AWS">
-                    <span class="iconify" data-icon="logos:aws" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Heroku">
-                    <span class="iconify" data-icon="logos:heroku-icon" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Google Cloud Platform">
-                    <span class="iconify" data-icon="logos:google-cloud" data-width="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Netlify">
-                    <span class="iconify" data-icon="logos:netlify" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Firebase">
-                    <span class="iconify" data-icon="logos:firebase" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Auth0">
-                    <span class="iconify" data-icon="logos:auth0-icon" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="ElasticSearch">
-                    <span class="iconify" data-icon="logos:elasticsearch" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Redis">
-                    <span class="iconify" data-icon="logos:redis" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Memcached">
-                    <span class="iconify" data-icon="logos:memcached" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="CircleCI">
-                    <span class="iconify" data-icon="vscode-icons:file-type-circleci" data-width="60" data-height="60"></span>
-                  </span>
-                </p>
-                <p class="text-muted pt-2">
-                  <ul>
-                    <li>
-                      <p>Write CI/CD scripts with CircleCI and deploy application automatically with Docker, Kubernetes and AWS services</p>
-                    </li>
-                    <li>
-                      <p>Deploy frontend/backed application on AWS, Heroku, GCP, Netlify</p>
-                    </li>
-                    <li>
-                      <p>Increase the search speed and performance by integrating ElasticSearch to the application</p>
-                    </li>
-                    <li>
-                      <p>Cache data on backend using Redis and Memcached</p>
-                    </li>
-                    <li>
-                      <p>Third-party authentication service with Firebase and Auth0</p>
-                    </li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-            <div class="row gy-5 my-5 py-5 fadeInUp">
-              <div class="col-sm-8 col-lg-6 wow fadeInRight">
-                <h3 class="text-8 fw-600 mb-3">Blockchain & Web3 Development</h3>
-                <p class="text-center">
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Ethereum">
-                    <span class="iconify" data-icon="logos:ethereum" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Solidity">
-                    <span class="iconify" data-icon="logos:solidity" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Hardhat">
-                    <span class="iconify" data-icon="logos:hardhat-icon" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Truffle">
-                    <span class="iconify" data-icon="logos:truffle-icon" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Ganache">
-                    <span class="iconify" data-icon="logos:ganache-icon" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Rust">
-                    <span class="iconify" data-icon="logos:rust" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Golang">
-                    <span class="iconify" data-icon="vscode-icons:file-type-go-gopher" data-width="60" data-height="60"></span> 
-                  </span>
-                </p>
-                <p class="text-muted pt-2">
-                  <ul>
-                    <li>
-                      <p>Write CI/CD smart contracts, scripts and unit tests with Solidity and Rust</p>
-                    </li>
-                    <li>
-                      <p>Deployed smart contracts on Ethereum, BSC, Polygon and Cosmos networks</p>
-                    </li>
-                    <li>
-                      <p>Verify smart contracts using etherscan and test smart contracts using Remix and Ganache</p>
-                    </li>
-                    <li>
-                      <p>Integrate smart contracts into frontend applications with web3.js/ethers.js</p>
-                    </li>
-                    <li>
-                      <p>Built decentralized applications including Defi, DAO and NFT marketplaces</p>
-                    </li>
-                    <li>
-                      <p>Expertized in Cosmos SDK, Cosmwasm and building application-specific blockchains with Starport</p>
-                    </li>
-                  </ul>
-                </p>
-              </div>
-              <div class="col-sm-4 col-lg-6 wow fadeInUp d-flex align-items-center">
-                <img src="./images/undraw_ethereum_re_0m68.svg" width="100%" />
-              </div>
-            </div>
-            <div class="row gy-5 my-5 py-5 fadeInUp">
-              <div class="col-sm-4 col-lg-6 wow fadeInUp d-flex align-items-center">
-                <img src="./images/undraw_version_control_re_mg66.svg" width="100%" />
-              </div>
-              <div class="col-sm-8 col-lg-6 wow fadeInRight">
-                <h3 class="text-8 fw-600 mb-3">Development Tools & Platforms</h3>
-                <p class="text-center">
-                  <span data-bs-toggle="tooltip" data-bs-original-title="VSCode">
-                    <span class="iconify" data-icon="vscode-icons:file-type-vscode" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Git">
-                    <span class="iconify" data-icon="logos:git-icon" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Jira">
-                    <span class="iconify" data-icon="logos:jira" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Trello">
-                    <span class="iconify" data-icon="logos:trello" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Slack">
-                    <span class="iconify" data-icon="logos:slack-icon" data-width="60" data-height="60"></span>
-                  </span>
-                  <span data-bs-toggle="tooltip" data-bs-original-title="Microsoft Teams">
-                    <span class="iconify" data-icon="logos:microsoft-teams" data-width="60" data-height="60"></span>
-                  </span>
-                </p>
-                <p class="text-muted pt-2">
-                  <ul>
-                    <li>
-                      <p>Use popular editors, mainly VSCode and Atom with many extensions</p>
-                    </li>
-                    <li>
-                      <p>Task management, sprint management tools such as Jira and Trello</p>
-                    </li>
-                    <li>
-                      <p>Communication tools for work such as Slack and Microsoft Teams</p>
-                    </li>
-                    <li>
-                      <p>Version Control with Git</p>
-                    </li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Services end -->
 
         <!-- Resume
     ============================================= -->
@@ -729,169 +992,159 @@
             <p class="text-center mb-2 wow fadeInUp">
               <span class="bg-primary text-dark px-2">Resume</span>
             </p>
-            <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp">
-              A summary of My Resume
+            <h2 class="text-10 fw-600 text-center mb-2 wow fadeInUp">
+              Education & Experience
             </h2>
             <!-- Heading end-->
 
-            <div class="row g-5 mt-5">
-              <!-- My Education -->
-              <div class="col-sm-12 col-md-8 mx-auto wow fadeInUp">
-                <h2 class="text-7 fw-600 mb-4 pb-2">My Education</h2>
+            <div class="row g-5 mt-2">
+              <div class="col-sm-12 col-md-12 mx-auto wow fadeInUp">
                 <div class="d-flex">
-                  <img src="./images/University_of_Waterloo_seal.svg.png" width="150px" height="150px" />
+                  <img
+                    src="./images/university.png"
+                    width="80px"
+                    height="80px"
+                  />
                   <div class="border-start border-2 border-primary ms-4 ps-3">
                     <h3 class="text-5">Bachelor of Computer Science</h3>
-                    <p class="mb-2">University of Waterloo / 2011 - 2015</p>
-                    <ul class="text-muted">
+                    <p class="mb-2">University of Waterloo / 2009 - 2013</p>
+                    <ul class="text-muted text-2">
                       <li class="text-muted mb-1">
-                        Studied ML(machine learning), AI(artificial intelligence), web development area
+                        Studied ML(machine learning), AI(artificial
+                        intelligence), web development area
                       </li>
                       <li class="text-muted mb-1">
-                        Researched ML-translation engine with corpus database written by Java and Python
+                        Researched ML-translation engine with corpus database
+                        written by Java and Python
                       </li>
                       <li class="text-muted mb-1">
                         Rebuilt web application for school community platform
                       </li>
-
                     </ul>
                   </div>
                 </div>
               </div>
               <!-- My Experience -->
-              <div class="col-sm-12 col-md-8 mx-auto wow fadeInUp" data-wow-delay="0.2s">
+              <div
+                class="col-sm-12 col-md-12 mx-auto wow fadeInUp mt-4"
+                data-wow-delay="0.2s"
+              >
                 <h2 class="text-7 fw-600 mb-4 pb-2">My Experience</h2>
                 <div class="border-start border-2 border-primary ps-3">
                   <div class="d-flex">
                     <img src="./images/labrys.png" width="80px" height="80px" />
                     <div class="ps-4">
-                      <h3 class="text-5">Sr. Full Stack Web3 Engineer</h3>
-                      <p class="mb-2">Labrys Inc. / May 2020 - Current</p>
-                      <ul class="text-muted">
-                        <li class="mb-1">Architected and designed the NFT bridge between
-                          Ethereum, Solana and Pastel Network referencing
-                          Wormhole and Cosmos IBC protocol
+                      <h3 class="text-5">Full-Stack Web Engineer ( React + Node.js / Django )</h3>
+                      <p class="mb-2">
+                        Labrys Inc. / May 2020 - Current
+                      </p>
+                      <ul class="text-muted text-2">
+                        <li class="mb-1">
+                          Optimized and improved the code quality by owning the rewriting of the client application from an MVC view-based approach to a SPA and upgraded to React 16.8, rewriting all class-based components to functional components with hooks, implemented the Context API for global storage.
                         </li>
-                        <li class="mb-1">Built NFT picks application with React, Node.js and
-                          integrated payment service with Stripe
+                        <li class="mb-1">
+                          Integrated payment services to financial platforms with Quickbooks, Freshbooks and Stripe.
                         </li>
-                        <li class="mb-1">Wrote and test smart contracts for NFT collection with ERC721, audited with MythX
-                          and built random-generated NFT resources with Node.js and IPFS                          
+                        <li class="mb-1">
+                          Owned the client application development for the community management and implemented with TypeScript, Vue3, Quasar and Vite.
                         </li>
-                        <li class="mb-1">Wrote scripts to scrap NFTs from Ethereum chain with web3.js
+                        <li class="mb-1">
+                          Wrote the CI/CD script with CircleCI, Docker and deployed application on AWS and Heroku using services.
                         </li>
-                        <li class="mb-1">Integrated smart contracts to frontend applications using React, Web3.js and
-                          Ethers.js                          
+                        <li class="mb-1">
+                          Came into an existing monolithic app migration from Python 2.x, Flask to Python 3.x, Django and helped speed up future schema migrations by writing SQL scripts.
                         </li>
-                        <li class="mb-1">Architected, designed and developed smart contracts for DeFi application using
-                          Cosmwasm and Rust
-                        </li>
-                        <li class="mb-1">Developed smart contracts and frontend application for financial DAO based on
-                          Olympus DAO
-                        </li>
-                        <li class="mb-1">Developed smart contracts with Solidity for bonding & staking in Defi application
-                        </li>
-                        <li class="mb-1">Worked on sports NFT project with Flow/Cadence and React to build a fast,
-                          decentralized and developer-friendly blockchain application
-                        </li>
-                        <li class="mb-1">Integrated Codat service to the backend application for financial accounting, bank,
-                          ecommerce integrations
-                        </li>
-                        <li class="mb-1">Integrated Coinbase, Coinmarketcap, Coingecko, Binance api to the Nest.js backend
-                          application to sync latest coin data
+                        <li class="mb-1">
+                          Architected and implemented microservice system based on Node.js with Nest.js, Prisma, TypeScript and PostgreSQL and authored unit tests for endpoints and functions.
                         </li>
                       </ul>
                     </div>
                   </div>
-                  <hr class="my-4" />
                   <div class="d-flex">
-                    <img src="./images/mixbytes.png" width="80px" height="80px" />
+                    <img
+                      src="./images/mixbytes.png"
+                      width="80px"
+                      height="80px"
+                    />
                     <div class="ps-4">
-                      <h3 class="text-5">Full Stack Web3 Engineer</h3>
-                      <p class="mb-2">MixBytes Inc. / Apr 2019 - Sep 2019</p>
-                      <ul class="text-muted">
-                        <li class="mb-1">Analyzed and researched Cosmos Network and
-                          application-specific blockchain development using
-                          Golang, Cosmos SDK and Tendermint.
+                      <h3 class="text-5">Full-Stack Web Engineer ( React + RoR )</h3>
+                      <p class="mb-2">Mixbytes Inc. / Apr 2019 - Nov 2019</p>
+                      <ul class="text-muted text-2">
+                        <li class="mb-1">
+                          Led the frontend development during a redesign of the internal SharePoint intranet for employees about organizational news, events, and other important information.
                         </li>
-                        <li class="mb-1">Architected, designed and developed minimum viable
-                          product for application-specific blockchain using Golang,
-                          Starport and Cosmos.
-                          
+                        <li class="mb-1">
+                          Optimized and reduced the time and stress for content creators within the organization by planning, developing and launching an internal tool for creating custom SharePoint content, catered to the site.
                         </li>
-                        <li class="mb-1">Integrated Inter-Blockchain Communication Protocol to
-                          SDK-based application with Golang.
+                        <li class="mb-1">
+                          Architected, developed endpoints for monolith web application with Ruby, RoR and PostgreSQL
                         </li>
-                        <li class="mb-1">Worked on the frontend application using Vue3 and
-                          Quasar framework.
-                          
+                        <li class="mb-1">
+                          Built frontend application for different services with React, Redux and TypeScript.
                         </li>
-                        <li class="mb-1">Implemented multi-chain smart contract with CosmWasm
-                          and Rust.
-                          
+                        <li class="mb-1">
+                          Ushered in and implemented a testing strategy in Jest and Enzyme, resulting in a test coverage of 78% of all client code.
                         </li>
-                        <li class="mb-1">Researched and studied Ethermint, a scalable, highthroughout Proof-of-Stake blockchain, compatible with
-                          Ethereum.                         
-                          
+                        <li class="mb-1">
+                          Supported migrating microservices and features from Python to Node.js with Nest.js, TypeORM, PostgreSQL.
                         </li>
                       </ul>
                     </div>
                   </div>
-                  <hr class="my-4" />
                   <div class="d-flex">
                     <img src="./images/unicsoft.png" width="80px" height="80px" />
                     <div class="ps-4">
-                      <h3 class="text-5">Blockchain Developer</h3>
-                      <p class="mb-2">Unicsoft Inc. / Feb 2018 - Jun 2020</p>
-                      <ul class="text-muted">
-                        <li class="mb-1">Worked on the development and implementations of Defi
-                          application with React, Solidity and Truffle
+                      <h3 class="text-5">Front-end Developer</h3>
+                      <p class="mb-2">
+                        UnicSoft Inc. / Feb 2018 - Jun 2020
+                      </p>
+                      <ul class="text-muted text-2">
+                        <li class="mb-1">
+                          Dramatically improved the user experience for over 10,000 users by optimizing client code and refactoring the web app with jQuery to using React and Redux.
                         </li>
-                        <li class="mb-1">Architected, developed and deployed ERC20
-                          Cryptocurrency, Smart contracts and web application
-                          using Solidity, Hardhat and React.
-                          
+                        <li class="mb-1">
+                          Brought in shipping confidence for the app and improved the deployment pipeline by implementing a testing harness in Jest and Enzyme covering over 75% of the code configuring linting with ESLint and formatting with Prettier for overall code quality.
                         </li>
-                        <li class="mb-1">Implemented, tested and audited open-source software
-                          to interact with on-chain smart contracts.
-                          
+                        <li class="mb-1">
+                          Built public web application for digital marketing agency with Next.js, improving SEO and ranking to increase page views.
                         </li>
-                        <li class="mb-1">Wrote technical documentation to communicate key
-                          points to stakeholders.
-                        </li>
-                        <li class="mb-1">Researched and investigated Cosmos SDK and Cosmos
-                          Network.
+                        <li class="mb-1">
+                          Supported migrating the codebase from class components to functional components with modern React features and libraries including React hooks and React context. 
                         </li>
                       </ul>
                     </div>
                   </div>
-                  <hr class="my-4" />
                   <div class="d-flex">
-                    <img src="./images/merix.jpg" width="80px" height="80px" />
+                    <img
+                      src="./images/merix.jpg"
+                      width="80px"
+                      height="80px"
+                    />
                     <div class="ps-4">
-                      <h3 class="text-5">Full Stack(Frontend Heavy) Developer</h3>
-                      <p class="mb-2">MerixStudio Inc. / Dec 2015 - Apr 2018</p>
-                      <ul class="text-muted">
-                        <li class="mb-1">Improved the page speed by 17% for the ecommerce site
-                          that generates $21M annually in revenue by implementing
-                          Code-Splitting and Optimizing performance with React,
-                          GraphQL and Apollo.
+                      <h3 class="text-5">
+                        Full Stack(Frontend Heavy) Developer
+                      </h3>
+                      <p class="mb-2">
+                        Absolute Web Inc. / Jan 2016 - Apr 2018
+                      </p>
+                      <ul class="text-muted text-2">
+                        <li class="mb-1">
+                          Designed, developed and deployed full-stack web
+                          applications according to business objectives and
+                          needs of various clients with React, Express.js,
+                          MySQL, PostgreSQL and MongoDB.
                         </li>
-                        <li class="mb-1">Designed, developed and deployed full-stack web
-                          applications according to business objectives and needs
-                          of various clients with React, Express.js, MySQL,
-                          PostgreSQL and MongoDB.
+                        <li class="mb-1">
+                          Improved the page speed by 17% for the ecommerce site that generates $21M annually in revenue by implementing Code-Splitting and Optimizing performance with React, GraphQL and Apollo.
                         </li>
-                        <li class="mb-1">Implemented SEO in React application for e-commerce
+                        <li class="mb-1">
+                          Implemented SEO in React application for e-commerce
                           site with a catalog of 20000+ products leading to an
                           increase in page views per session of 23% with SSR in
                           Next.js and Gatsby.
                         </li>
-                        <li class="mb-1">Worked on building customer-facing web application with
-                          Express.js, Prisma, React, PostgreSQL and Node.js.
-                        </li>
-                        <li class="mb-1">Built Progressive Web Application (PWA) with React,
-                          TypeScript and GraphQL (Relay).
+                        <li class="mb-1">
+                          Worked on building customer-facing web application with Express.js, Prisma, React, PostgreSQL and Node.js.
                         </li>
                       </ul>
                     </div>
@@ -900,8 +1153,10 @@
               </div>
             </div>
 
-            <p class="text-center mt-5 wow fadeInUp">
-              <a href="./resume.pdf" class="btn btn-outline-dark shadow-none rounded-0"
+            <p class="text-center mt-2 wow fadeInUp">
+              <a
+                href="./resume.pdf"
+                class="btn btn-outline-dark shadow-none rounded-0"
                 >See my CV</a
               >
             </p>
@@ -917,7 +1172,7 @@
             <p class="text-center mb-2 wow fadeInUp">
               <span class="bg-primary text-dark px-2">Portfolio</span>
             </p>
-            <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp">
+            <h2 class="text-10 fw-600 text-center mb-2 wow fadeInUp">
               Some of my most recent projects
             </h2>
             <!-- Heading end-->
@@ -960,20 +1215,76 @@
                       />
                       <div class="portfolio-overlay">
                         <div class="portfolio-overlay-details">
-                          <a class="text-white text-5"
-                          href="https://smartmint.pastel.network"
-                          target="_blank">SmartMint</a>
+                          <a
+                            class="text-white text-5"
+                            href="https://smartmint.pastel.network"
+                            target="_blank"
+                            >SmartMint</a
+                          >
                           <div class="text-light">Blockchain</div>
-                          <span class="text-light text-1">SmartMint by Pastel is a no-code NFT minting platform where creators can easily create, manage and sell NFTs on their own custom smart contracts while simultaneously leveraging Pastel’s infrastructure for near-duplicate NFT detection (Sense) and permanent NFT data storage (Cascade). SmartMint works for Ethereum. Support for other blockchains like Solana coming soon.</span>
+                          <span class="text-light text-1"
+                            >SmartMint by Pastel is a no-code NFT minting
+                            platform where creators can easily create, manage
+                            and sell NFTs on their own custom smart contracts
+                            while simultaneously leveraging Pastel’s
+                            infrastructure for near-duplicate NFT detection
+                            (Sense) and permanent NFT data storage (Cascade).
+                            SmartMint works for Ethereum. Support for other
+                            blockchains like Solana coming soon.</span
+                          >
                           <div class="pt-4">
-                            <span class="iconify" data-icon="logos:solidity" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:hardhat-icon" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:react" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:typescript-icon" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:material-ui" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:nodejs-icon" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:aws" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:firebase" data-width="30" data-height="30"></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:solidity"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:hardhat-icon"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:react"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:typescript-icon"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:material-ui"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:nodejs-icon"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:aws"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:firebase"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
                           </div>
                         </div>
                       </div>
@@ -990,17 +1301,54 @@
                       />
                       <div class="portfolio-overlay">
                         <div class="portfolio-overlay-details">
-                          <a class="text-white text-5"
-                          href="https://klimadao.finance"
-                          target="_blank">KlimaDAO Finance</a>
+                          <a
+                            class="text-white text-5"
+                            href="https://klimadao.finance"
+                            target="_blank"
+                            >KlimaDAO Finance</a
+                          >
                           <div class="text-light">Defi Application</div>
-                          <span class="text-light text-1 p-2">KlimaDAO finance is the defi application to let users bond, stake their assets to make profits and help environment protection and decrease carbon dioxide.</span>
+                          <span class="text-light text-1 p-2"
+                            >KlimaDAO finance is the defi application to let
+                            users bond, stake their assets to make profits and
+                            help environment protection and decrease carbon
+                            dioxide.</span
+                          >
                           <div class="pt-4">
-                            <span class="iconify" data-icon="logos:solidity" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:react" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:typescript-icon" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:nextjs-icon" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:nodejs-icon" style="color: black;" data-width="30" data-height="30"></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:solidity"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:react"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:typescript-icon"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:nextjs-icon"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:nodejs-icon"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
                           </div>
                         </div>
                       </div>
@@ -1017,19 +1365,68 @@
                       />
                       <div class="portfolio-overlay">
                         <div class="portfolio-overlay-details">
-                          <a class="text-white text-5"
-                          href="https://www.scoro.com"
-                          target="_blank">Scoro</a>
+                          <a
+                            class="text-white text-5"
+                            href="https://www.scoro.com"
+                            target="_blank"
+                            >Scoro</a
+                          >
                           <div class="text-light">Fintech software</div>
-                          <span class="text-light text-1 p-2">Work management software that brings your team, projects, sales and reports together. Centralize all projects and data in one platform.</span>
+                          <span class="text-light text-1 p-2"
+                            >Work management software that brings your team,
+                            projects, sales and reports together. Centralize all
+                            projects and data in one platform.</span
+                          >
                           <div class="pt-4">
-                            <span class="iconify" data-icon="logos:react" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:typescript-icon" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:nextjs-icon" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:nodejs-icon" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:graphql" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:tailwindcss-icon" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="vscode-icons:file-type-light-cypress" style="color: green;" data-width="30" data-height="30"></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:react"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:typescript-icon"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:nextjs-icon"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:nodejs-icon"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:graphql"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:tailwindcss-icon"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="vscode-icons:file-type-light-cypress"
+                              style="color: green"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
                           </div>
                         </div>
                       </div>
@@ -1046,19 +1443,68 @@
                       />
                       <div class="portfolio-overlay">
                         <div class="portfolio-overlay-details">
-                          <a class="text-white text-5"
-                          href="https://www.waitwhile.com"
-                          target="_blank">Waitwhile</a>
+                          <a
+                            class="text-white text-5"
+                            href="https://www.waitwhile.com"
+                            target="_blank"
+                            >Waitwhile</a
+                          >
                           <div class="text-light">Business management</div>
-                          <span class="text-light text-1 p-2">A virtual waitlist and queue management app that can be customized for any business. With Waitwhile businesses have saved 100 million customers 10,000+ years of waiting.</span>
+                          <span class="text-light text-1 p-2"
+                            >A virtual waitlist and queue management app that
+                            can be customized for any business. With Waitwhile
+                            businesses have saved 100 million customers 10,000+
+                            years of waiting.</span
+                          >
                           <div class="pt-4">
-                            <span class="iconify" data-icon="logos:react" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:typescript-icon" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:gatsby" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:python" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:graphql" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:django-icon" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="vscode-icons:file-type-circleci" data-width="30" data-height="30"></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:react"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:typescript-icon"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:gatsby"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:python"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:graphql"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:django-icon"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="vscode-icons:file-type-circleci"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
                           </div>
                         </div>
                       </div>
@@ -1075,18 +1521,58 @@
                       />
                       <div class="portfolio-overlay">
                         <div class="portfolio-overlay-details">
-                          <a class="text-white text-5"
-                          href="https://kira.networ"
-                          target="_blank">Kira Network</a>
+                          <a
+                            class="text-white text-5"
+                            href="https://kira.networ"
+                            target="_blank"
+                            >Kira Network</a
+                          >
                           <div class="text-light">Blockchain network</div>
-                          <span class="text-light text-1 p-2">The first network that hosts, powers and secures DeFi applications with value of real assets at stake.</span>
+                          <span class="text-light text-1 p-2"
+                            >The first network that hosts, powers and secures
+                            DeFi applications with value of real assets at
+                            stake.</span
+                          >
                           <div class="pt-4">
-                            <span class="iconify" data-icon="vscode-icons:file-type-go-gopher" data-width="30" data-height="30"></span> 
-                            <span class="iconify" data-icon="logos:rust" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:html-5" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:css-3" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:nodejs-icon" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:docker-icon" data-width="30" data-height="30"></span>
+                            <span
+                              class="iconify"
+                              data-icon="vscode-icons:file-type-go-gopher"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:rust"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:html-5"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:css-3"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:nodejs-icon"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:docker-icon"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
                           </div>
                         </div>
                       </div>
@@ -1103,17 +1589,53 @@
                       />
                       <div class="portfolio-overlay">
                         <div class="portfolio-overlay-details">
-                          <a class="text-white text-5"
-                          href="https://www.waitwhile.com"
-                          target="_blank">Memepad</a>
+                          <a
+                            class="text-white text-5"
+                            href="https://www.waitwhile.com"
+                            target="_blank"
+                            >Memepad</a
+                          >
                           <div class="text-light">IDO Launchpad</div>
-                          <span class="text-light text-1 p-2">MemePad is the first-ever IDO Launchpad exclusively servicing MemeCoins and Micro-Cap projects.</span>
+                          <span class="text-light text-1 p-2"
+                            >MemePad is the first-ever IDO Launchpad exclusively
+                            servicing MemeCoins and Micro-Cap projects.</span
+                          >
                           <div class="pt-4">
-                            <span class="iconify" data-icon="logos:react" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:typescript-icon" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:gatsby" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:nodejs-icon" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:graphql" style="color: black;" data-width="30" data-height="30"></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:react"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:typescript-icon"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:gatsby"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:nodejs-icon"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:graphql"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
                           </div>
                         </div>
                       </div>
@@ -1130,15 +1652,40 @@
                       />
                       <div class="portfolio-overlay">
                         <div class="portfolio-overlay-details">
-                          <a class="text-white text-5"
-                          href="https://www.waitwhile.com"
-                          target="_blank">Premise Health</a>
+                          <a
+                            class="text-white text-5"
+                            href="https://www.waitwhile.com"
+                            target="_blank"
+                            >Premise Health</a
+                          >
                           <div class="text-light">Healthcare</div>
-                          <span class="text-light text-1 p-2">World's leading healthcare provider focusing on clinical expertise, easy access to care, and a seemless and simple member experience</span>
+                          <span class="text-light text-1 p-2"
+                            >World's leading healthcare provider focusing on
+                            clinical expertise, easy access to care, and a
+                            seemless and simple member experience</span
+                          >
                           <div class="pt-4">
-                            <span class="iconify" data-icon="logos:react" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:typescript-icon" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="mdi:language-ruby-on-rails" style="color: red;" data-width="60" data-height="60"></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:react"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:typescript-icon"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="mdi:language-ruby-on-rails"
+                              style="color: red"
+                              data-width="60"
+                              data-height="60"
+                            ></span>
                           </div>
                         </div>
                       </div>
@@ -1155,15 +1702,40 @@
                       />
                       <div class="portfolio-overlay">
                         <div class="portfolio-overlay-details">
-                          <a class="text-white text-5"
-                          href="https://www.waitwhile.com"
-                          target="_blank">Newman Architecture</a>
+                          <a
+                            class="text-white text-5"
+                            href="https://www.waitwhile.com"
+                            target="_blank"
+                            >Newman Architecture</a
+                          >
                           <div class="text-light">Architecture</div>
-                          <span class="text-light text-1 p-2">Delivering architectural design and services that focus on your individual needs, ideas, and objectives.</span>
+                          <span class="text-light text-1 p-2"
+                            >Delivering architectural design and services that
+                            focus on your individual needs, ideas, and
+                            objectives.</span
+                          >
                           <div class="pt-4">
-                            <span class="iconify" data-icon="logos:vue" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:typescript-icon" style="color: black;" data-width="30" data-height="30"></span>
-                            <span class="iconify" data-icon="logos:tailwindcss-icon" style="color: black;" data-width="30" data-height="30"></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:vue"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:typescript-icon"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
+                            <span
+                              class="iconify"
+                              data-icon="logos:tailwindcss-icon"
+                              style="color: black"
+                              data-width="30"
+                              data-height="30"
+                            ></span>
                           </div>
                         </div>
                       </div>
@@ -1202,76 +1774,101 @@
         </section>
         <!-- Call to Action end -->
 
-
         <!-- Contact Me
     ============================================= -->
-        <section id="contact" class="section bg-primary">
-          <div class="container">
+        <section id="contact" class="section bg-primary py-5">
+          <div class="container py-5">
             <div class="row">
-              <div class="col-lg-5 text-center text-lg-start wow fadeInUp mx-auto">
+              <div
+                class="col-lg-5 text-center text-lg-start wow fadeInUp mx-auto"
+              >
                 <h2 class="text-10 fw-600 mb-5">Let's get in touch</h2>
                 <p class="text-5 mb-5">
-                  I enjoy discussing new projects and challenges. Please
-                  share as much info, as possible so we can get the most out of
-                  our first catch-up.
+                  I enjoy discussing new projects and challenges. Please share
+                  as much info, as possible so we can get the most out of our
+                  first catch-up.
                 </p>
                 <h3 class="text-5 fw-600">Living In:</h3>
                 <address class="text-4">
-                  335 Dunsdon Street, Brantford, Ontario, Canada
+                  335 Dunsdon street, Brantford, Ontario, Canada
                 </address>
-                  <ul class="social-icons">
-                    <li class="social-icons-github">
-                      <a
-                        data-bs-toggle="tooltip"
-                        href="https://github.com/mastercodercat"
-                        target="_blank"
-                        title=""
-                        data-bs-original-title="Github"
-                        ><span
-                          class="iconify"
-                          data-icon="akar-icons:github-fill"
-                          data-width="30"
-                          data-height="30"
-                        ></span
-                      ></a>
-                    </li>
-                    <li class="social-icons-linkedin">
-                      <a
-                        data-bs-toggle="tooltip"
-                        href="https://www.linkedin.com/in/shane-lewis-han
-                        target="_blank"
-                        title=""
-                        data-bs-original-title="Linkedin"
-                        ><span class="iconify" data-icon="icomoon-free:linkedin" data-width="30" data-height="30"></span></a>
-                    </li>
-                    <li class="social-icons-google">
-                      <a
-                        data-bs-toggle="tooltip"
-                        href="mailto:shanelewix@gmail.com"
-                        target="_blank"
-                        title=""
-                        data-bs-original-title="Google"
-                        ><span class="iconify" data-icon="akar-icons:google-fill" data-width="30" data-height="30"></span></a>
-                    </li>
-                    <li class="social-icons-discord">
-                      <a
-                        data-bs-toggle="tooltip"
-                        href="https://discordapp.com/users/927884166547275787"
-                        target="_blank"
-                        title=""
-                        data-bs-original-title="Discord"
-                        ><span class="iconify" data-icon="bi:discord" data-width="30" data-height="30"></span></a>
-                    </li>
-                    <li class="social-icons-telegram">
-                      <a
-                        data-bs-toggle="tooltip"
-                        href="https://t.me/shiny1007"
-                        target="_blank"
-                        title=""
-                        data-bs-original-title="Telegram"
-                        ><span class="iconify" data-icon="cib:telegram" data-width="30" data-height="30"></span></a>
-                    </li>
-                  </ul>
+                <ul class="social-icons">
+                  <li class="social-icons-github">
+                    <a
+                      data-bs-toggle="tooltip"
+                      href="https://github.com/mastercodercat"
+                      target="_blank"
+                      title=""
+                      data-bs-original-title="Github"
+                      ><span
+                        class="iconify"
+                        data-icon="akar-icons:github-fill"
+                        data-width="30"
+                        data-height="30"
+                      ></span
+                    ></a>
+                  </li>
+                  <li class="social-icons-linkedin">
+                    <a
+                      data-bs-toggle="tooltip"
+                      href="https://www.linkedin.com/in/shane-lewis-han
+                      target="_blank"
+                      title=""
+                      data-bs-original-title="Linkedin"
+                      ><span
+                        class="iconify"
+                        data-icon="icomoon-free:linkedin"
+                        data-width="30"
+                        data-height="30"
+                      ></span
+                    ></a>
+                  </li>
+                  <li class="social-icons-google">
+                    <a
+                      data-bs-toggle="tooltip"
+                      href="mailto:shanelewix@gmail.com"
+                      target="_blank"
+                      title=""
+                      data-bs-original-title="Google"
+                      ><span
+                        class="iconify"
+                        data-icon="akar-icons:google-fill"
+                        data-width="30"
+                        data-height="30"
+                      ></span
+                    ></a>
+                  </li>
+                  <li class="social-icons-discord">
+                    <a
+                      data-bs-toggle="tooltip"
+                      href="https://discordapp.com/users/927884166547275787"
+                      target="_blank"
+                      title=""
+                      data-bs-original-title="Discord"
+                      ><span
+                        class="iconify"
+                        data-icon="bi:discord"
+                        data-width="30"
+                        data-height="30"
+                      ></span
+                    ></a>
+                  </li>
+                  <li class="social-icons-telegram">
+                    <a
+                      data-bs-toggle="tooltip"
+                      href="https://t.me/shiny1007"
+                      target="_blank"
+                      title=""
+                      data-bs-original-title="Telegram"
+                      ><span
+                        class="iconify"
+                        data-icon="cib:telegram"
+                        data-width="30"
+                        data-height="30"
+                      ></span
+                    ></a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -1286,13 +1883,11 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-6 text-center text-lg-start wow fadeInUp">
-              <p class="mb-2 mb-lg-0">
-                Shane Lewis
-              </p>
+              <p class="mb-2 mb-lg-0">Shane Lewis</p>
             </div>
             <div class="col-lg-6 wow fadeInUp">
               <p class="mb-0 text-center text-lg-end">
-                Full-Stack Web/Web3 Engineer
+                Full-Stack Web Engineer
               </p>
             </div>
           </div>
